@@ -2,12 +2,16 @@
 
 public class Animal {
 	
-	public void play() {
+	public void play1() {
 		System.out.println("港港");
+	}
+	public void play2() {
+		System.out.println("具克");
 	}
 	
 	public static void main(String[] args) {
 		Animal a = new Animal();
-		a.play();
+		a.play1();
+		a.play2();
 	}
 }
